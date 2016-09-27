@@ -1,10 +1,6 @@
 @charset "UTF-8";
 
-*,*::before, *::after{
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
+
 
 html{
     height: 100%;
@@ -14,7 +10,6 @@ html{
 body{
     font-family: 'Open Sans';
     min-height: 80%;
-    overflow: hidden;
     border-radius: 5px;
 }
 
@@ -42,11 +37,12 @@ nav{
     padding-top: .25rem;
     background-color: darkslategray;
     text-align: center;
+    padding-top:.5%
 }
 
 nav a{
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 7%;
+    margin-left: 7%;
     color: white;
     text-decoration: none;
     font-weight: 200;
@@ -62,6 +58,23 @@ h1{
     text-align: center;
 }
 
+.hero-container img{
+    margin-left:40%;
+}
+
+.hero-container .text-block{
+    width: 75%;
+    margin:auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+}
+
+.hero-container .map{
+    margin-left: 31%;
+    margin-bottom: 2rem
+}
+
 footer{
     height: 2rem;
     width: 100%;
@@ -70,7 +83,7 @@ footer{
     text-align: center;
     clear: both;
     padding-top: .25rem;
-    position: absolute;
+    position: relative;
 }
 
 footer a{
