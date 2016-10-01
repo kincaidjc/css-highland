@@ -59,11 +59,13 @@ h1{
 }
 
 .hero-container img{
-    margin-left:40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-container .text-block{
-    width: 75%;
+    width: 60%;
     margin:auto;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
@@ -71,8 +73,10 @@ h1{
 }
 
 .hero-container .map{
-    margin-left: 31%;
-    margin-bottom: 2rem
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
 }
 
 footer{

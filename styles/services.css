@@ -1,0 +1,25 @@
+.services{
+    margin-bottom: 5%
+}
+.services img{
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid black;
+}
+
+.services h3{
+    text-align: center;
+}
+.services h5{
+    text-align: center;
+    font-weight: 200;
+    color: red;
+}
+
+.services li{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
