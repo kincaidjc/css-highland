@@ -1,0 +1,12 @@
+.about{
+    margin-top: 2rem;
+    margin-bottom: 5%;
+}
+
+.about img{
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid black;
+}

@@ -58,25 +58,70 @@ h1{
     text-align: center;
 }
 
-.hero-container img{
+.hero-container .hero-image{
+    height: 18rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.hero-container .text-block{
+.text-block{
     width: 60%;
     margin:auto;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
     font-weight: 700;
+    text-align: justify;
 }
 
-.hero-container .map{
+.hero-container .jsh-links{
+    width:515px;
+    display:block;
+	margin: auto;
+    margin-bottom:2rem;
+}
+
+.hero-container .jsh-links img{
+    margin-left:5px;
+    border-radius:20px;
+}
+
+.hero-container .daily-lift{
+    width:150px;
+    display:block;
+	margin: auto;
+    margin-bottom:2rem;
+}
+
+.hero-container .daily-lift img{
+    width: 150px;
+}
+
+.news{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.news img{
+    border-radius: 50px;
+    display: block;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.news a{
+    text-decoration: none;
+    color: brown;
+}
+
+.clear-float{
+    clear: both;
 }
 
 footer{
