@@ -54,6 +54,13 @@ nav a:hover{
     background-color: saddlebrown;
 }
 
+#title{
+    display: block;
+    margin: auto;
+    width: 850px;
+    height:5rem;
+}
+
 h1{
     text-align: center;
 }
@@ -63,6 +70,30 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.container{
+    width: 60%;
+    display:block;
+    margin: auto;
+}
+
+#target{
+    width: 50%;
+    text-align: center;
+    margin:auto;
+    margin-top: 2.5rem;
+    font-weight: 500;
+    color:brown;
+}
+
+#target2{
+    width: 50%;
+    text-align: center;
+    margin:auto;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+    color:black;
 }
 
 .text-block{
